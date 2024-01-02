@@ -1,0 +1,225 @@
+/* styles.css */
+
+body {
+    background-color: #d3d3e6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.pixel_guard {
+    padding-left: 40px;
+}
+
+.nav-link {
+  font-weight: 700;
+  color: #093778(0, 0, 0, 0.8) ;
+}
+
+.social-nav .nav-link {
+  padding: 0 0.5rem;
+  font-size: 1.1rem;
+  line-height: 2.5rem;
+}
+
+/* .nav-link:hover,
+.nav-link:focus,
+.active .nav-link {
+  color: #F3F8FF(0, 0, 0, 0.6) ;
+} */
+
+#header-nav {
+    background-color:#333333bf !important; 
+}
+
+
+/* Style the navigation bar */
+/* .navbar {
+    background-color: #222127;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Style the website name on the left */
+/* .navbar .brand {
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    max-height: 20px;
+}
+
+/* Style the navigation links on the right */
+/* .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    padding: 29px;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add underline and shadow effect on hover */
+.nav-link:hover {
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.encryption-container,
+.extraction-container {
+    width: 45%;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height:460px;
+    cursor: default;
+}
+
+.encryption-container h5,
+.extraction-container h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="file"],
+textarea {
+    width: calc(100% - 16px); /* Adjusted width to account for padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+
+canvas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.highlight-text {
+    background-color: #f2f2f2; /* Grey background color */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    display: inline-block; /* Make it a block element */
+}
+
+.about-container {
+    width: 95%; /* Adjusted width for responsiveness */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #f5f5f5; /* Light gray background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.about-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-container p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+.about-heading {
+    text-align: center;
+}
+
+.footer {
+    background-color: #222127;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    background-color: #d3d3e6; /* Use the same background color as the rest of the website */
+    padding: 20px;
+}
+
+.contact-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+}
+.website-info,
+.team-info {
+    width: 48%; /* Adjust as needed */
+}
+.team-info{
+    text-align: right;
+}
+.team-member {
+    margin-bottom: 15px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.custom-file-input {
+    /* Hide default file input styles */
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+     display: none ; 
+     /* Hide the input visually */
+     pointer-events: none ;
+     /* Disable pointer events */
+}
+
+.custom-file-label {
+    /* Style the label of the file input */
+    border-radius: 20px;
+    /* Rounded shape */
+    padding: 8px 16px;
+    /* Adjust padding as needed */
+    background-color: #cab81a;
+    /* Change to desired color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+}
+
+/* Adjust the file input label when hovering */
+.custom-file-label:hover {
+    background-color: #357a38;
+    /* Change to desired hover color */
+}
+
+ 
+
